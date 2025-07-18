@@ -2,9 +2,9 @@ name: Checkout code
 on: [push]
 jobs:
 checkout-code:
-runs-on: Ubantu-Latest
+runs-on: ubantu-Latest
 steps:
 - name: Checkout repository
 uses: actions/checkout@v3
 - name: List files
-runs: ls-la
+run: ls-la
